@@ -21,8 +21,6 @@ def mochila(elementos, W):
             else:
                 matriz[i][j] = matriz[i][j-1]
     
-
-    print(matriz)
     return reconstruir_solucion(W,len(elementos), elementos, matriz)
 
 
